@@ -1,5 +1,5 @@
 # Hand gesture classification
-The main motivation of this project is to approach the challenge of human activity recognition (HAR), in particular hand gestures. The solution is inspired by skeleton-based models of the hand, which use 3D locations of the joints in RGB-D images as observable features of human gestures. The designed deep neural network predicts dynamic hand gestures from 3D coordinate series. It is also built a model which 2D coordinates to evaluate the impact of the depth coordinate in the results.
+The main motivation of this project is to approach the challenge of human activity recognition (HAR), in particular hand gestures. The solution is inspired by skeleton-based models of the hand, which use 3D locations of the joints in RGB-D images as observable features of human gestures. The designed deep neural network predicts dynamic hand gestures from 3D coordinate series. It is also built a model which 2D coordinates to evaluate the impact of the depth coordinate in the results. The input consists of the coordinates of the hand keypoints in time steps.
 
 ## Gesture classes
 The dataset is composed of 5 different gestures:
